@@ -94,39 +94,141 @@
  * Object Ini merupakan tipe data komplek yang berisi props (properti)
  */
 
-let indentitas = {
-    firstName: 'Dias',
-    lastName : 'Ustman',
-    email : 'dias@test.com',
-    instagram : 'utssrr',
-    linkeding : 'diasutsman',
-    phone : '(021) 123 4567',
-    addres : {
-        city : "bekasi",
-        number :'17',
-        street : "jalan bahagia",
-    }
-}
+// let indentitas = {
+//     firstName: 'Dias',
+//     lastName : 'Ustman',
+//     email : 'dias@test.com',
+//     instagram : 'utssrr',
+//     linkeding : 'diasutsman',
+//     phone : '(021) 123 4567',
+//     addres : {
+//         city : "bekasi",
+//         number :'17',
+//         street : "jalan bahagia",
+//     }
+// }
 
-console.log('Nama Panjang saya ' + indentitas.firstName +indentitas.lastName + " Kalian Bisa Memanggil saya " + indentitas.firstName)
+// console.log('Nama Panjang saya ' + indentitas.firstName +indentitas.lastName + " Kalian Bisa Memanggil saya " + indentitas.firstName)
 
 // console.table(indentitas)
 
 
 
-let kendaraan = {
-    kendaraan : {
-        mobil : "peungeot",
-        motor : "v-xion",
-        seepeda : "united"
-    },
-    jalan : "jalan berkah",
-    kota : "bekasi",
-    platNomor : "jabodetabek",
-    kereta : {
-        namaKa : "argo Bromo anggrek",
-        tujuan : "senen - pasar turi"
-    }
-}
+// let kendaraan = {
+//     kendaraan : {
+//         mobil : "peungeot",
+//         motor : "v-xion",
+//         seepeda : "united"
+//     },
+//     jalan : "jalan berkah",
+//     kota : "bekasi",
+//     platNomor : "jabodetabek",
+//     kereta : {
+//         namaKa : "argo Bromo anggrek",
+//         tujuan : "senen - pasar turi"
+//     }
+// }
 
-console.table(kendaraan)
+// console.table(kendaraan)
+
+// const mobil = 'peungeot'
+// const motor = 'ninja'
+
+// console.log('mobil saya adalah ' +mobil+ ' dan motor saya adalah ' + motor)
+// console.log(`mobil saya adalah ${mobil} dan motor saya adalh ${motor}`)
+
+
+//loosely typed languange
+
+//shorthand names property
+// let [a, b, c] = [hello, 2, 5]
+
+//tenarary operator
+// let a = 10 
+// if(a < 10){
+//     console.log('nilai A kurang dari sepuluh 10')
+// }else{
+//     console.log('Nilai a Lebih dari 10')
+// }
+
+
+/**
+ * Function
+ * Merupakan Sebuah Block Code Yang Di mana dia untuk membungkus sebuah proses penulisan code agar tidak diulang kembali
+ */
+//Function Biasa\
+// function name(params) {
+//     console.log("saya belajar Java Script")
+// }
+// name()
+
+// //Anonymous Function
+// const anon = function(params){
+//     console.log(params)
+// }
+// anon('Saya Belajar JavaSrcipt')
+
+// //arrow function
+
+// let arrow = () => {
+//     console.log('Ini adalah arrow function')
+// }
+
+// arrow()
+
+/**
+ * High Oerde Function
+ * Fungsi Yang menerima argumen berupa fungsi lain serta return bisa berapa fungsi juga.
+ */
+
+//normal function
+
+// function genap(number) {
+//     return number % 2 ==0 
+// }
+
+// function print(number) {
+//     let isTrue = genap(number)
+//     if (isTrue){
+//         console.log(`${number} adalah bilangan genap`)
+//     }else{
+//         console.log(`${number} adalah bilangan ganjil`)
+//     }
+// }
+
+// print(10)
+
+//High Order Function
+// function genap(number) {
+//     return number % 2 ==0 
+// }
+
+// function print(number, callback) {
+//     let isTrue = callback(number)
+//     if (isTrue){
+//         console.log(`${number} adalah bilangan genap`)
+//     }else{
+//         console.log(`${number} adalah bilangan ganjil`)
+//     }
+// }
+
+// print(15, genap)
+
+// function sport(mobil) {
+//     return mobil >= 100
+// }
+// function warna(mobil) {
+//     return mobil == 'merah'
+// }
+
+// function kendaraan(mobil, callback) {
+//     let a = callback(mobil)
+//     if(a){
+//         console.log(`mobil dengan ${mobil} adalah mobil saya`)
+//     }else{
+//         console.log(`mobil dengan ${mobil} bukan mobil saya`)
+//     }
+// }
+
+// kendaraan(1200, sport)
+
