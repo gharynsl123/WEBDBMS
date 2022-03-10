@@ -196,7 +196,7 @@
 //     }
 // }
 
-// print(10)
+//!?* print(10)
 
 //High Order Function
 // function genap(number) {

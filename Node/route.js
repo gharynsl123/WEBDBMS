@@ -9,7 +9,7 @@ const server = http.createServer((req, res) => {
 
     res.setHeader("Content-Type", "application/json");
     url = req.url
-
+    https://www.behance.net/gallery/100147071/XQQ/modules/577779523
     if(url === "/"){
         dataResponse = {
             data: "Ini Adalah Halaman Home Page"

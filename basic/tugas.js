@@ -32,3 +32,15 @@ function movieChange(){
 }
 
 movieChange()
+
+
+//!closure
+
+function nama(kelas, nama) {
+    var text =   'kelas :'  + kelas
+    return function() {
+        console.log(text)
+    }
+}
+var nama = nama('X RPL A')
+nama()
