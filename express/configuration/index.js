@@ -6,8 +6,6 @@
 
 // app.listen(port, function(){console.log(`Dengerin lagi si ${port}`)})
 
-
-
 require("dotenv").config();
 let port = 5000
 const express = require("express");
